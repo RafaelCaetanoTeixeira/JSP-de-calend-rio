@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1{text-align: center;}
+            form div{
+                   margin: auto;
+                   justify-content: center;
+                   display: flex;
+            }
+            select{
+                margin: 4px;
+            }
+            input{
+                margin: 4px;
+            }
+            button{
+                margin: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="CalendarioAniversario" method="POST" >
+            <h1>Adicione sua data de aniversario</h1>
+            <div>
+                <select name="mes">
+                    <option value="-1">Selecione um mês</option>
+                    <option value="1">Janeiro</option>
+                    <option value="2" >Fevereiro</option>
+                    <option value="3">Março</option>
+                    <option value="4">Abril</option>
+                    <option value="5" >Maio</option>
+                    <option value="6">Junho</option>
+                    <option value="7">Julho</option>
+                    <option value="8" >Agosto</option>
+                    <option value="9">Setembro</option>
+                    <option value="10">Outubro</option>
+                    <option value="11" >Novembro</option>
+                    <option value="12">Dezembro</option>
+                  </select>
+                <input type="number" id="start" name="ano" value="" placeholder="Digite o ano">
+
+                <button id="submit">Enviar</button> 
+            </div>
+        </form>
+    </body>
+</html>
